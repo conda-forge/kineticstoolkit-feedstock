@@ -11,7 +11,7 @@ source:
   sha256: f7e76d3f420aeb02aaf147401d14af0e5dfe7bcd406e07df34060e325a0a1bc1
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -26,6 +26,7 @@ requirements:
     - python >=3.8
     - scikit-learn
     - scipy
+    - limitedinteraction
 
 test:
   imports:
