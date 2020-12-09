@@ -26,6 +26,7 @@ requirements:
     - python >=3.8
     - scikit-learn
     - scipy
+    - limitedinteraction
 
 test:
   imports:
