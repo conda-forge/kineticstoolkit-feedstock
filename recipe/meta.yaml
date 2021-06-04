@@ -28,8 +28,6 @@ requirements:
     - scipy
     - requests
     - limitedinteraction
-    - ffmpeg
-    - ffmpeg-python
 
 test:
   imports:
