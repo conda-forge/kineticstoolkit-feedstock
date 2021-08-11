@@ -1,5 +1,5 @@
 {% set name = "kineticstoolkit" %}
-{% set version = "0.5.1" %}
+{% set version = "0.6.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/kineticstoolkit-{{ version }}.tar.gz
-  sha256: e5c98d98338984bd60eb6a728eada88d273c82422f1270bba926ce9b1e9f90c5
+  sha256: 0d8fb9ba5a9af6ccf971d739756b6bac05baeae5a1aed22d996654b1f04a893e
 
 build:
   number: 0
