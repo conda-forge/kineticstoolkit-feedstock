@@ -11,7 +11,7 @@ source:
   sha256: 6775392ad1121eb8f3600688d29b196cee238d7b0df260053da383708283cce3
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -26,9 +26,8 @@ requirements:
     - python >=3.8
     - scikit-learn
     - scipy
-    - requests
+    - tqdm
     - limitedinteraction
-    - ffmpeg
 
 test:
   imports:
@@ -39,7 +38,7 @@ test:
     - pip
 
 about:
-  home: https://felixchenier.uqam.ca/kineticstoolkit
+  home: https://kineticstoolkit.uqam.ca
   summary: An open-source python library to facilitate research in biomechanics.
   license: Apache-2.0
   license_file: LICENSE.txt
