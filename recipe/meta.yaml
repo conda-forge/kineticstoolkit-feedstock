@@ -26,7 +26,7 @@ requirements:
     - python >=3.8
     - scikit-learn
     - scipy
-    - requests
+    - tqdm
     - limitedinteraction
 
 test:
@@ -38,7 +38,7 @@ test:
     - pip
 
 about:
-  home: https://felixchenier.uqam.ca/kineticstoolkit
+  home: https://kineticstoolkit.uqam.ca
   summary: An open-source python library to facilitate research in biomechanics.
   license: Apache-2.0
   license_file: LICENSE.txt
