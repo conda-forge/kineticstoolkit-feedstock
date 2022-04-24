@@ -11,7 +11,7 @@ source:
   sha256: b9e4c8979cd687083541a04f5804f7a900f806a2b0b821a362509212cbbc2e86
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -29,6 +29,7 @@ requirements:
     - tqdm
     - limitedinteraction
     - ezc3d
+    - requests-cache
 
 test:
   imports:
