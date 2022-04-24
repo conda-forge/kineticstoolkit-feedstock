@@ -29,6 +29,7 @@ requirements:
     - tqdm
     - limitedinteraction
     - ezc3d
+    - requests-cache
 
 test:
   imports:
