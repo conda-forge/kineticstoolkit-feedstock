@@ -1,11 +1,11 @@
-About kineticstoolkit
-=====================
+About kineticstoolkit-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/kineticstoolkit-feedstock/blob/main/LICENSE.txt)
 
 Home: https://kineticstoolkit.uqam.ca
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/kineticstoolkit-feedstock/blob/main/LICENSE.txt)
 
 Summary: An open-source python library to facilitate research in biomechanics.
 
