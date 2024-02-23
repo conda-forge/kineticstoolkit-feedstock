@@ -36,11 +36,11 @@ requirements:
 test:
   imports:
     - kineticstoolkit
-    - ffmpeg
   commands:
     - pip check
   requires:
     - pip
+    - ffmpeg
 
 about:
   home: https://kineticstoolkit.uqam.ca
