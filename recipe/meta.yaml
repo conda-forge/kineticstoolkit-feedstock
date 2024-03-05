@@ -29,7 +29,6 @@ requirements:
     - tqdm
     - limitedinteraction
     - ezc3d >=1.5.2
-    - beartype >=0.17
     - requests
     - requests-cache
     - ffmpeg
